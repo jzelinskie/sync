@@ -13,7 +13,7 @@ import (
 // A Once must not be copied after first use.
 //
 // In the terminology of the Go memory model,
-// the return from f “synchronizes before”
+// the return from f "synchronizes before"
 // the return from any call of once.Do(f).
 type Once = sync.Once
 
